@@ -1,0 +1,79 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 32px;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 32px 0;
+}
+
+label {
+  display: block;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+label + label {
+  margin-top: 8px;
+}
+
+label span {
+  width: 120px;
+  text-align: right;
+}
+
+label > div {
+  position: relative;
+}
+
+label > div > .bi {
+  position: absolute;
+  top: 4px;
+  right: -24px;
+  cursor: pointer;
+  opacity: .3;
+}
+
+.hidden {
+  display: none;
+}
+
+label > div > .bi:hover {
+  opacity: 1;
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  width: 220px;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  background: #08c;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  margin-top: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+  
